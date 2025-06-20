@@ -18,13 +18,16 @@ Part of 42 Common Core.
 # Main Technologies / Skills Used:
 
 - **Programming Languages:** C
-- **Variadic Functions:** Using va_start, va_arg, va_copy, va_end to handle variable arguments
-- **Number Base Conversion:** Converting integers to decimal, hexadecimal (uppercase/lowercase)
-- **Memory Management:** Dynamic allocation for string formatting and buffer management
-- **Pointer Manipulation:** Handling void pointers and address formatting
-- **String Processing:** Character and string output with proper formatting
-- **Makefile Management:** For automating project compilation.
-- **Error Handling:** Managing edge cases and invalid format specifiers
+- **Process Management:** fork() for creating child processes to execute commands
+- **Inter-Process Communication:** pipe() for creating communication channels between processes
+- **File Descriptors:** dup(), dup2() for input/output redirection and pipe management
+- **Program Execution:** execve() for executing shell commands with their parameters
+- **Process Synchronization:** wait(), waitpid() for parent process to wait for child completion
+- **File Operations:** open(), close(), read(), write() for file input/output handling
+- **Memory Management:** malloc(), free() for dynamic memory allocation
+- **Error Handling:** perror(), strerror() for comprehensive error management and debugging
+- **Command Parsing:** String manipulation to parse shell commands and their arguments
+- **Makefile Management:** For automating project compilation with proper linking
 
 # Installation and compilation
 1. Clone this repository into your project:
