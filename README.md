@@ -35,7 +35,7 @@ git clone git@github.com:Philippe89fr/42_printf.git
 ```bash
 make bonus
 ```
-3. To use the pipex program, compile it using the provided Makefile. Then, run the program with the required arguments:
+3. To use the pipex program, after compiling it using the provided Makefile, run the program with the required arguments:
 ```bash
 ./pipex infile "cmd1" "cmd2" outfile
 ```
